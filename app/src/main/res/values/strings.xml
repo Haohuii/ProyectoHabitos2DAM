@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Do it</string>
+    <string name="crear_habito">Crear habito</string>
+    <string name="correr_5_km">Correr 5 Km</string>
+    <string name="meditar">Meditar</string>
+    <string name="leer">Leer</string>
+    <string name="tareas_pendientes">TAREAS PENDIENTES</string>
+    <string name="ajustes">ajustes</string>
+    <string name="perfil">perfil</string>
+    <string name="anyadirhabito">anyadirHabito</string>
+    <string name="button">Button</string>
+    <string name="grafica">grafica</string>
+    <string name="button2">Button</string>
+    <string name="perfilpequenyo">perfilpequenyo</string>
+    <string name="atras">atras</string>
+    <string name="boton_anyadirhabito">anyadirhabito</string>
+    <string name="nombre_y_apellidos">Nombre y apellidos</string>
+    <string name="edad">Edad</string>
+    <string name="altura">Altura</string>
+    <string name="peso">Peso</string>
+    <string name="pinguinoperfil">pinguinoPerfil</string>
+    <string name="txtFecha">TextView</string>
+    <string name="txtTitulo">TextView</string>
+    <string name="txtNota">TextView</string>
+    <string name="txtHora">TextView</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_pantalla"
+    tools:context=".EditarHabito">
+
+    <EditText
+        android:id="@+id/txtHora"
+        android:layout_width="177dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/textview_desing"
+        android:hint="HORA"
+        android:inputType="time"
+
+        android:textColorHint="#988686"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtHabito"
+        android:layout_width="411dp"
+        android:layout_height="270dp"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/textview_desing"
+        android:hint="HABITO"
+        android:textColorHint="#988686"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txtFecha"
+        android:layout_width="177dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/textview_desing"
+        android:hint="FECHA"
+        android:inputType="date"
+        android:textColorHint="#988686"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/aceptarHabito"
+        android:layout_width="206dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="74dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="guardarHabito"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnPerfilCrearHabitos"
+        android:layout_width="49dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/buttonprofile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.632"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pinguinopeque"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btnAtrasPantalla2"
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/buttonsettings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/atras"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textEdition"
+        android:layout_width="164dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="100dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/basketball"
+        android:gravity="center"
+        android:text="EDITAR"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
