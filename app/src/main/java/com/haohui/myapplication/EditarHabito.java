@@ -24,9 +24,7 @@ public class EditarHabito extends AppCompatActivity {
     private Habitos h;
     private int position;
 
-//    private static final int REQUEST_CODE = 1; // Código de solicitud para permisos
-//    private Button createNotificationButton; // Botón para crear la notificación
-//    private static final String TAG = "Notify";
+// Hola prueba GitHub con Mauricio
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
