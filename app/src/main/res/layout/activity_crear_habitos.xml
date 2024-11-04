@@ -32,7 +32,6 @@
         android:textColorHint="#988686"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -83,10 +82,10 @@
         android:id="@+id/btnAtrasPantalla2"
         android:layout_width="48dp"
         android:layout_height="51dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/buttonsettings"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintHorizontal_bias="0.123"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/atras"

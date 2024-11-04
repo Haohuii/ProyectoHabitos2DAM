@@ -32,7 +32,7 @@
         android:id="@+id/imageView4"
         android:layout_width="268dp"
         android:layout_height="175dp"
-        android:layout_marginBottom="128dp"
+        android:layout_marginBottom="124dp"
         android:contentDescription="@string/grafica"
         android:src="@drawable/grafica"
         app:layout_constraintBottom_toBottomOf="parent"
