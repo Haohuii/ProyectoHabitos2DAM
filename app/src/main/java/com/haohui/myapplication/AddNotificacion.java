@@ -41,6 +41,8 @@ public class AddNotificacion extends AppCompatActivity {
     private Button createNotificationButton; // Botón para crear la notificación
     private static final String TAG = "Notify";
 
+    // Hola pruebadwq
+
     @SuppressLint("ResourceType")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
