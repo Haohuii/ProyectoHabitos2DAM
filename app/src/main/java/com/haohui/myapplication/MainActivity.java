@@ -5,12 +5,17 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
 import android.content.Intent;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.Switch;
+
+import com.google.android.material.switchmaterial.SwitchMaterial;
 
 import java.util.List;
 
@@ -23,6 +28,11 @@ public class MainActivity extends AppCompatActivity {
     private MostrarHabitosRV adapter;
     private List<Habitos> listaHabitos;
     private RecyclerView recyclerView;
+
+    private Switch modoOscuro;
+    private boolean nigthMode;
+    SharedPreferences sharedPreferences;
+    SharedPreferences.Editor editor;
 
 
 
@@ -53,6 +63,11 @@ public class MainActivity extends AppCompatActivity {
 
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(new SwipeToDeleteCallback(adapter));
         itemTouchHelper.attachToRecyclerView(recyclerView);
+
+        getSupportActionBar().hide();
+        modoOscuro = findViewById(R.id.switch1);
+
+        sharedPreferences = getSharedPreferences("MODE", Context.MODE_PRIVATE);
 
     }
 

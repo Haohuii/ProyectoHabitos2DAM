@@ -5,10 +5,9 @@
         <item name="colorPrimary">@color/white</item>
         <item name="colorPrimaryDark">@color/purple_700</item>
         <item name="colorAccent">@color/purple_700</item>
-        <item name="android:textColorPrimary">@color/purple_700</item>
-        <item name="android:textColorSecondary">@color/purple_700</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
         <item name="android:windowBackground">@drawable/fondo_pantalla</item>
-
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
@@ -18,7 +17,11 @@
     </style>
 
     <style name="text_button_desing">
-        <item name="android:background">@drawable/text_button_desing_nigth</item>
-        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/text_button_desing</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="recycle_view">
+        <item name="android:background">@drawable/recycle_view_desing</item>
     </style>
 </resources>

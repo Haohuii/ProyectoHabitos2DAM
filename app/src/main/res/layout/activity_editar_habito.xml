@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo_pantalla"
     tools:context=".EditarHabito">
 
     <EditText
@@ -12,11 +11,9 @@
         android:layout_width="177dp"
         android:layout_height="64dp"
         android:layout_marginTop="168dp"
-        android:background="@drawable/textview_desing"
         android:hint="HORA"
         android:inputType="time"
-
-        android:textColorHint="#988686"
+        style="@style/text_view_desing"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.931"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,9 +24,8 @@
         android:layout_width="411dp"
         android:layout_height="270dp"
         android:layout_marginBottom="192dp"
-        android:background="@drawable/textview_desing"
         android:hint="HABITO"
-        android:textColorHint="#988686"
+        style="@style/text_view_desing"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -39,10 +35,9 @@
         android:layout_width="177dp"
         android:layout_height="64dp"
         android:layout_marginTop="168dp"
-        android:background="@drawable/textview_desing"
         android:hint="FECHA"
         android:inputType="date"
-        android:textColorHint="#988686"
+        style="@style/text_view_desing"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.068"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,11 +50,9 @@
         android:layout_marginStart="100dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="74dp"
-        android:backgroundTint="#FFFFFF"
         android:text="ACEPTAR"
-        android:textColor="#000000"
         android:textStyle="bold"
-        app:cornerRadius="50dp"
+        style="@style/text_button_desing"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

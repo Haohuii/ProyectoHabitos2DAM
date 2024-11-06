@@ -4,8 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Usuario/Desktop/ProyectoHabitos2DAM/app/src/main/res/drawable-v24/buttonsettings.xml" value="0.2725" />
+        <entry key="..\:/Users/Usuario/Desktop/ProyectoHabitos2DAM/app/src/main/res/drawable/date_view_border.xml" value="0.299" />
         <entry key="..\:/Users/Usuario/Desktop/ProyectoHabitos2DAM/app/src/main/res/drawable/fondo_pantalla.xml" value="0.1" />
         <entry key="..\:/Users/Usuario/Desktop/ProyectoHabitos2DAM/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Usuario/Desktop/ProyectoHabitos2DAM/app/src/main/res/drawable/recycle_view_desing.xml" value="0.191" />
+        <entry key="..\:/Users/Usuario/Desktop/ProyectoHabitos2DAM/app/src/main/res/drawable/recycle_view_desing_nigth.xml" value="0.191" />
+        <entry key="..\:/Users/Usuario/Desktop/ProyectoHabitos2DAM/app/src/main/res/drawable/text_button_desing.xml" value="0.299" />
         <entry key="..\:/Users/Usuario/Desktop/ProyectoHabitos2DAM/app/src/main/res/drawable/text_button_desing_nigth.xml" value="0.2725" />
         <entry key="..\:/Users/Usuario/Desktop/ProyectoHabitos2DAM/app/src/main/res/drawable/text_view_desing_nigth.xml" value="0.2725" />
         <entry key="..\:/Users/Usuario/Desktop/ProyectoHabitos2DAM/app/src/main/res/drawable/textview_desing.xml" value="0.2725" />
@@ -20,5 +24,5 @@
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>
