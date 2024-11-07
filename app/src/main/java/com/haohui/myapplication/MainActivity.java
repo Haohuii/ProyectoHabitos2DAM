@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(new SwipeToDeleteCallback(adapter));
         itemTouchHelper.attachToRecyclerView(recyclerView);
-
+        //MODO OSCURO
         getSupportActionBar().hide();
         modoOscuro = findViewById(R.id.switch1);
 
