@@ -1,6 +1,7 @@
 package com.haohui.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -68,7 +69,27 @@ public class MainActivity extends AppCompatActivity {
         modoOscuro = findViewById(R.id.switch1);
 
         sharedPreferences = getSharedPreferences("MODE", Context.MODE_PRIVATE);
+        nigthMode = sharedPreferences.getBoolean("night", false);
+        if(nigthMode) {
+            modoOscuro.setChecked(true);
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+        }
 
+        modoOscuro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(nigthMode) {
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                    editor = sharedPreferences.edit();
+                    editor.putBoolean("night", false);
+                } else {
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                    editor = sharedPreferences.edit();
+                    editor.putBoolean("night", true);
+                }
+                editor.apply();
+            }
+        });
     }
 
     private void crear_habito() {
