@@ -16,7 +16,7 @@ import java.util.List;
 
 public class EditarHabito extends AppCompatActivity {
 
-    private ImageButton perfil;
+
     private ImageButton atras;
     private Button aceptarHabito;
     private EditText txtFecha, txtHora, txtTitulo;
@@ -31,11 +31,7 @@ public class EditarHabito extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_editar_habito);
 
-        perfil = findViewById(R.id.btnPerfilCrearHabitos);
-        perfil.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {acceso_perfil();}
-        });
+
 
         atras = findViewById(R.id.btnAtrasPantalla2);
         atras.setOnClickListener(new View.OnClickListener() {
@@ -72,13 +68,10 @@ public class EditarHabito extends AppCompatActivity {
 
     }
 
-    private void acceso_perfil() {
-        Intent intentAdd = new Intent(this, PantallaPerfil.class);
-        startActivity(intentAdd);
-    }
+
 
     private void boton_atras() {
-        Intent intentAdd = new Intent(this, Pantalla2.class);
+        Intent intentAdd = new Intent(this, PantallaSecundaria.class);
         startActivity(intentAdd);
     }
 
@@ -111,7 +104,7 @@ public class EditarHabito extends AppCompatActivity {
         Toast.makeText(this, "Habito editado", Toast.LENGTH_SHORT).show();
 
         // Finalizar la actividad y volver a la actividad principal
-        startActivity(new Intent(this, MainActivity.class));
+        startActivity(new Intent(this, PantallaPrincipal.class));
 
     }
 }

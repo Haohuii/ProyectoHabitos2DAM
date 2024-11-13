@@ -1,33 +1,18 @@
 package com.haohui.myapplication;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
 
-import android.app.AlarmManager;
-import android.app.NotificationChannel;
-import android.app.NotificationManager;
-import android.app.PendingIntent;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.TextView;
 import android.widget.Toast;
-
-import java.util.Calendar;
-import java.util.List;
-import java.util.TimeZone;
 
 public class CrearHabitos extends AppCompatActivity {
 
-    private ImageButton perfil;
+
     private ImageButton atras;
     private Button aceptarHabito;
     private EditText txtFecha, txtHora, txtTitulo;
@@ -44,11 +29,7 @@ public class CrearHabitos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crear_habitos);
 
-        perfil = findViewById(R.id.btnPerfilCrearHabitos);
-        perfil.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {acceso_perfil();}
-        });
+
 
         atras = findViewById(R.id.btnAtrasPantalla2);
         atras.setOnClickListener(new View.OnClickListener() {
@@ -76,13 +57,9 @@ public class CrearHabitos extends AppCompatActivity {
 
     }
 
-    private void acceso_perfil() {
-        Intent intentAdd = new Intent(this, PantallaPerfil.class);
-        startActivity(intentAdd);
-    }
 
     private void boton_atras() {
-        Intent intentAdd = new Intent(this, Pantalla2.class);
+        Intent intentAdd = new Intent(this, PantallaSecundaria.class);
         startActivity(intentAdd);
     }
 
@@ -113,7 +90,7 @@ public class CrearHabitos extends AppCompatActivity {
 
 
         // Finalizar la actividad y volver a la actividad principal
-        startActivity(new Intent(this, Pantalla2.class));
+        startActivity(new Intent(this, PantallaSecundaria.class));
 
     }
 

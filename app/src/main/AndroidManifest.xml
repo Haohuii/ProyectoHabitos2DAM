@@ -28,10 +28,10 @@
             android:name=".PantallaPerfil"
             android:exported="false" />
         <activity
-            android:name=".Pantalla2"
+            android:name=".PantallaSecundaria"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".PantallaPrincipal"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

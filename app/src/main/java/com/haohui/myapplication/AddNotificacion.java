@@ -4,9 +4,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -19,13 +16,11 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
-import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-import java.sql.Time;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
@@ -98,7 +93,7 @@ public class AddNotificacion extends AppCompatActivity {
                 @Override
                 public void run() {
                     // Finalizar la actividad y volver a la actividad principal
-                    startActivity(new Intent(getApplicationContext(), Pantalla2.class));
+                    startActivity(new Intent(getApplicationContext(), PantallaSecundaria.class));
                 }
             }, 2000);
 

@@ -12,6 +12,7 @@ public class Habitos {
     private String fecha;
     private String hora;
     private String titulo;
+    private boolean isChecked;
 
     public Habitos(String fecha, String hora, String titulo) {
         this.fecha = fecha;
@@ -51,6 +52,14 @@ public class Habitos {
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;
+    }
+
+    public boolean isChecked() {
+        return isChecked;
+    }
+
+    public void setChecked(boolean checked) {
+        this.isChecked = checked;
     }
 
 }
