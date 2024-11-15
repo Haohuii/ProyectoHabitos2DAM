@@ -25,13 +25,10 @@
             android:name=".CrearHabitos"
             android:exported="false" />
         <activity
-            android:name=".PantallaPerfil"
+            android:name=".Pantalla2"
             android:exported="false" />
         <activity
-            android:name=".PantallaSecundaria"
-            android:exported="false" />
-        <activity
-            android:name=".PantallaPrincipal"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

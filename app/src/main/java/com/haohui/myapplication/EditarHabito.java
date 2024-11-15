@@ -64,14 +64,12 @@ public class EditarHabito extends AppCompatActivity {
             }
         });
 
-
-
     }
 
 
 
     private void boton_atras() {
-        Intent intentAdd = new Intent(this, PantallaSecundaria.class);
+        Intent intentAdd = new Intent(this, Pantalla2.class);
         startActivity(intentAdd);
     }
 
@@ -104,7 +102,7 @@ public class EditarHabito extends AppCompatActivity {
         Toast.makeText(this, "Habito editado", Toast.LENGTH_SHORT).show();
 
         // Finalizar la actividad y volver a la actividad principal
-        startActivity(new Intent(this, PantallaPrincipal.class));
+        startActivity(new Intent(this, MainActivity.class));
 
     }
 }
