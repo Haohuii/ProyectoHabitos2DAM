@@ -93,7 +93,7 @@ public class AddNotificacion extends AppCompatActivity {
                 @Override
                 public void run() {
                     // Finalizar la actividad y volver a la actividad principal
-                    startActivity(new Intent(getApplicationContext(), PantallaSecundaria.class));
+                    startActivity(new Intent(getApplicationContext(), Pantalla2.class));
                 }
             }, 2000);
 

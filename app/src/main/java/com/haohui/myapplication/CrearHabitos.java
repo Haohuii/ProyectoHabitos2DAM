@@ -59,7 +59,7 @@ public class CrearHabitos extends AppCompatActivity {
 
 
     private void boton_atras() {
-        Intent intentAdd = new Intent(this, PantallaSecundaria.class);
+        Intent intentAdd = new Intent(this, Pantalla2.class);
         startActivity(intentAdd);
     }
 
@@ -90,7 +90,7 @@ public class CrearHabitos extends AppCompatActivity {
 
 
         // Finalizar la actividad y volver a la actividad principal
-        startActivity(new Intent(this, PantallaSecundaria.class));
+        startActivity(new Intent(this, Pantalla2.class));
 
     }
 
